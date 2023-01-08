@@ -1,0 +1,25 @@
+.authPage{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-image: url("./../../../public/backForAuth.png");
+ // background-image: radial-gradient(circle, #7e7e7e, #444444);
+  display: flex;
+  justify-content: center;
+}
+
+.formContent{
+  background-color: white;
+  width: max-content;
+  min-width: 40%;
+  border-radius: 20px;
+  margin-top: 5%;
+  overflow: hidden;
+  max-height: min-content;
+  height: 300px;
+  transition: height 0.3s ease-in-out;
+}
+
+.register{
+  height: 450px;
+}
